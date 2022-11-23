@@ -1,0 +1,26 @@
+.chatbot__messages .fixed-width-list  li {min-width: 134px;text-align: center;}
+.quick--links.active,
+.chatbot__messages .ChatItem-chatText button.active {
+    color: #fff;
+    background: #009dd8;
+    border: solid 1px #009dd8;
+}
+.fixed-width-list {margin-top: 0 !important; margin-bottom: 0 !important;}
+.ui-widget.ui-widget-content {border: 0;}
+textarea.my-sbi-input {height: 130px;width: 100%;outline: none;font-size: 13px;color: #333;padding: 10px;border: solid 1px #dddddd;}
+textarea.my-sbi-input:focus {border: solid 1px #009dd8;}
+.button-gray {background-color: #dddddd; color: #ffffff;}
+.button-inactive {background-color: #dddddd !important; color: #ffffff !important;border-color: transparent !important;}
+.input-search-box {position: relative;}
+.input-search-icon {position: absolute; top: 30px; right: 6px;}
+.half-width {width: 49%;display: inline-block;}
+.upload-btn-wrapper {position: relative;overflow: hidden;display: inline-block;width: 100%;}
+.upload-btn-wrapper input[type=file] {font-size: 100px;position: absolute;left: 0;top: 0;opacity: 0;}
+.mb-20 {margin-bottom: 20px !important;}
+.validity-text {color: #ff0000 !important;}
+.chatbot__entry {padding: 0 20px;}
+
+@media (max-width: 767px) {
+    .chatbot {left: 0;}
+    .chatbot__messages .fixed-width-list li {min-width: 100%;}
+}

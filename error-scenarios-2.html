@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chatbot">
+        <div class="box-shadow">
+            <div class="mdol">
+                <div class="chatbot__header logged-in" style="display: block;">
+            <p>
+                <span class="green-dot"></span>
+                <img src="images/SBIcard_chatbot_askela.png">
+                <span class="u-text-highlight"></span>
+            </p>
+            <span class="minimize-icon">  <img src="images/minimize-icon.svg"></span>
+            <span class="exit-icon modal-toggle"> <img src="images/exit-icon.svg"></span>
+                </div>
+                <div class="chatbot__message-window">
+            <ul class="chatbot__messages">
+                <div class="ChatItem-chatText">
+                    <div class="wrapper">
+                        <p>
+                            Welcome GAURAV TANDAN, you have successfully logged in. Here onwards, I will show you information related to your card number ending with 4119.
+                            The Credit Balance Refund is balance amount that SBI Card owes to a credit cardholder, post all deductions. This may occur due to excess payment, merchant refund or charge reversals on credit card
+                        </p><br>
+                        <p>Type "logout" to sign out at any time.</p>
+                    </div>
+                </div>
+                <div class="ChatItem-timeStamp">2:17 PM </div>
+                <ul class="quick__linkslist fixed-width-list">
+                    <li class="quick--links">My Accounts</li>
+
+
+                    <li class="quick--links active">Services</li>
+
+
+                    <li class="quick--links">Benefits</li>
+
+
+                    <li class="quick--links">My Transactions</li>
+
+
+                    <li class="quick--links">Flexipay</li>
+
+                    <li class="quick--links">Speed Analyser</li>
+                </ul>
+                <div class="ChatItem-timeStamp">2:19 PM </div>
+                <div class="ChatItem-chatText">
+                    <div class="wrapper my-account-summary">
+                        <p class="text-semibold">
+                            Please select the type of service request you would like to access
+                        </p>
+                        <button type="button" class="my-rounded-button">Activate card</button>
+                        <button type="button" class="my-rounded-button">Request duplicate statement</button>
+                        <button type="button" class="my-rounded-button">Opt for e-statement</button>
+                        <button type="button" class="my-rounded-button">Request for add-on card </button>
+                        <button type="button" class="my-rounded-button">Card dispatch status</button>
+                        <button type="button" class="my-rounded-button">Deactivate international usage</button>
+                        <button type="button" class="my-rounded-button">International number update</button>
+                        <button type="button" class="my-rounded-button active">Credit balance refund</button>
+                        <button type="button" class="my-rounded-button">Track service request</button>
+                    </div>
+                </div>
+                <div class="ChatItem-timeStamp">2:24 PM </div>
+                <div class="ChatItem-chatText">
+                    <div class="wrapper my-account-summary">
+                        <p>
+                            Glad to assist you! You can avail Credit Balance Refund on your account
+                        </p><br>
+                        <p>
+                            The <span class="text-semibold">Credit Balance Refund</span> is balance amount that SBI Card owes to a credit cardholder, post all deductions. This may occur due to excess payment, merchant refund or charge reversals on credit card
+                        </p><br>
+                        <p class="text-semibold">Eligible Credit Balance Refund Amount -    70,000</p><br>
+                        <p>What is the total Credit Balance Refund amount that you would like to transfer?</p>
+                    </div>
+                </div>
+                <div class="ChatItem-timeStamp">2:25 PM </div>
+                <li class="is-user animation">
+                    <p class="chatbot__message">
+                        300
+                    </p>
+                </li>
+                <p class="chatbot-timestamp-user">
+                    2:25 PM
+                </p>
+                <div class="ChatItem-chatText">
+                    <div class="wrapper my-account-summary">
+                        <p>I am sorry. The amount you have entered is lower than the minimum eligible amount of <span class="text-semibold">₹500</span> </p><br>
+                           <p> Please re-enter the Credit Balance Refund amount you would like to transfer to your bank account.</p>
+                    </div>
+                </div>
+                <div class="ChatItem-timeStamp">2:25 PM </div>
+                
+            </ul>
+                </div>
+                <div class="chatbot__entry chatbot--closed">
+                    <span class="open-accordion-drawer"><img src="images/accordion-drawer.svg"></span>
+                    <input type="text" class="chatbot__input" placeholder="Type your query here">
+                    <span class="send-icon chatbot__submit"><img src="images/send-button.svg"></span>
+                </div>
+                <div class="my-addon-card-modal my-modal my-lead-model">
+                    <div class="my-overlay"></div>
+                    <div class="my-content">
+                        <section class="my-toggle">
+                            <img src="images/exit-icon-login.svg">
+                        </section>
+                        <section class="my-modal-header">
+                            Enter Detailed Description
+                        </section>
+                        <section class="my-divider"></section>
+
+                        <form class="my-form">
+                            
+                            <label>
+                                Enter comments below
+                            </label>
+                            <textarea class="my-sbi-input mtop-10"></textarea>
+                            <button class="mtop-20 button-gray">
+                                Submit
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+                <div class="my-bank-details-modal my-modal my-lead-model">
+                    <div class="my-overlay"></div>
+                    <div class="my-content">
+                        <section class="my-toggle">
+                            <img src="images/exit-icon-login.svg">
+                        </section>
+                        <section class="my-modal-header">
+                            Enter Bank Details
+                        </section>
+                        <section class="my-divider"></section>
+
+                        <form class="my-form">
+                            
+                            <label>
+                                Select bank name:
+                                <!-- <span class="validity-text">
+                                    (Invalid number)
+                                </span> -->
+                            </label>
+                            <div class="input-search-box">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="Bank name">
+                                <img src="images/input-sear-icon.svg" alt="" class="input-search-icon">
+                            </div>
+
+                            <label class="mtop-20">
+                                IFSC code
+                            </label>
+                            <div class="input-search-box">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="Enter IFSC code">
+                            </div>
+
+                            <label class="mtop-20">
+                                OR<br>
+                                Search your IFSC by city and branch:
+                            </label>
+                            <label class="mtop-20">
+                                City
+                            </label>
+                            <div class="input-search-box">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="City">
+                                <img src="images/input-sear-icon.svg" alt="" class="input-search-icon">
+                            </div>
+                            <label class="mtop-20">
+                                Branch
+                            </label>
+                            <div class="input-search-box half-width">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="Branch">
+                                <img src="images/input-sear-icon.svg" alt="" class="input-search-icon">
+                            </div>
+                            <div class="half-width">
+                                <button class="mtop-20 button-inactive">
+                                    Search IFSC Code
+                                </button>
+                            </div>
+                            <label class="mtop-20">
+                                Bank account number
+                            </label>
+                            <div class="input-search-box">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="Enter account number">
+                            </div>
+
+                            <label class="mtop-20">
+                                Confirm account number
+                            </label>
+                            <div class="input-search-box">
+                                <input type="text" class="my-sbi-input mtop-20" autocomplete="off" placeholder="Confirm account number">
+                            </div>
+                            <button class="mtop-20 button-inactive">
+                                Submit
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/chatbot.js"></script>
+    <script src="js/my-chatbot.js"></script>
+</body>
+</html>
